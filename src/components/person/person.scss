@@ -1,0 +1,123 @@
+.person{
+    width: 100%;
+    height: 100%;
+    .showHead {
+      font-size: 32px;
+      height: 100px;
+      text-align: center;
+    //   background: #eee;
+      line-height: 100px;
+      h2 {
+        font-weight: normal;
+        padding: 0 300px;
+      }
+      i {
+        display: block; // float: right;
+        font-size: 60px;
+        position: absolute;
+        top: 0;
+      }
+      .ct {
+        // float: right;
+        text-align: right;
+        right: 17%;
+        top: 8px;
+      }
+      .op {
+        // float: right;
+        right: 5%;
+        font-size: 40px;
+      }
+    }
+    .perMain{
+        width: 100%;
+        padding-top: 15px;
+        background: #eee;
+        .geren{
+            height: 180px;
+            padding: 10px;
+            background: #fff;
+            border: 1px solid #ccc;
+            img{
+                display: block;
+                float: left;
+                width: 20%;
+                margin-right: 20px;
+            }
+            h4{
+                font-size: 40px;
+                line-height: 85px;
+            }
+            .account{
+                font-size: 36px;
+            }
+            .more{
+                display: block;
+                float: right;
+                font-size: 40px;
+                line-height: 10px;
+                margin-right: 20px;
+            }
+        }
+        .orderNa {
+            display: block;
+            height: 120px;
+            line-height: 180px;
+            font-size: 36px;
+            padding: 0 20px;
+            font-weight: normal;
+        }
+        .orderClass{
+            width: 100%;
+            height: 180px;
+            background: #fff;
+            margin-bottom: 20px;
+            ul{
+                display: flex;
+                width: 100%;
+                font-size: 40px;
+                li{
+                    flex: 1;
+                    text-align: center;
+                    padding-top: 40px;
+                    i{
+                        font-size: 70px;
+                    }
+                    span{
+                        display: block;
+                        padding-top: 5px;
+                    }
+                    .talk{
+                        color: green;
+                    }
+                    .chanpin{
+                        color: blue;
+                    }
+                    .showpin{
+                        color: yellow;
+                    }
+                }
+            }
+        }
+        .fangke{
+            height: 100px;
+            background: #fff;
+            padding: 0 20px;
+            font-size: 36px;
+            .mint-cell-text{
+                font-size: 36px;
+                line-height: 100px;
+            }
+            .mint-cell-value{
+                float: left;
+                .rentou {
+                  font-size: 40px;
+                }
+            }
+            .mint-cell-right{
+            }
+            
+        }
+
+    }
+}

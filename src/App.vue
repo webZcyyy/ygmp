@@ -6,7 +6,6 @@
 
 <script>
 import './sass/base.scss'
-import  './sass/iconfont.css'
 export default {
   name: 'app',
   data () {

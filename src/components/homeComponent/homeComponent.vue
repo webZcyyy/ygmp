@@ -1,8 +1,8 @@
 <template>
     <div class="home">
         <div class="homeHead">
-            <h2>hahah</h2>
-            <i class="iconfont icon-fangdajing"></i>
+            <h2>{{title}}</h2>
+            <i class="iconfont icon-fangdajing fangda"></i>
         </div>
         <main class="homeMain">
             <div class="homeContext">
@@ -19,12 +19,12 @@
 
 <script type="text/javascript">
     import './home.scss' 
-    import '../../sass/iconfont.css'
+    // import '../../untils/font/iconfont'
     import footerMenu from '../footer/footerComponent'
     export default{
         data () {
             return{
-
+                title:'阳光名片'
             }
         },
         methods: {

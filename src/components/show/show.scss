@@ -1,0 +1,32 @@
+.show{
+    width: 100%;
+    height: 100%;
+    .showHead{
+        font-size: 32px;
+        height: 100px;
+        text-align: center;
+        background: #eee;
+        line-height: 100px;
+        h2 {
+          font-weight: normal;
+          padding: 0 300px;
+        }
+        i{
+            display: block;
+            // float: right;
+            font-size: 60px;
+            position: absolute;
+            top: 0;
+        }
+        .xinfeng{
+            // float: right;
+            text-align: right;
+            right: 17%;
+            top: 8px;
+        }
+        .pic{
+            // float: right;
+            right: 5%;
+        }
+    }
+}
